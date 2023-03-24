@@ -1,0 +1,42 @@
+{
+  "name": "vite-plugin-loading-script",
+  "version": "1.0.2",
+  "description": "Vite plugin for wrapping and generator",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --dts",
+    "test": "echo Missing tests",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "vite",
+    "run-script",
+    "runScripts",
+    "run",
+    "plugin"
+  ],
+  "author": "fima.apps@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.191",
+    "tsup": "^4.12.5",
+    "typescript": "^4.3.5",
+    "vite": "^2.3.4"
+  },
+  "peerDependencies": {
+    "rollup": "^2.53.1",
+    "vite": "^2.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hwani163/vite-plugin-runScripts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hwani163/vite-plugin-runScripts/issues"
+  },
+  "homepage": "https://github.com/hwani163/vite-plugin-runScripts#readme"
+}
