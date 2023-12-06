@@ -1,6 +1,6 @@
 ## Installation
 ```
-npm install vite-plugin-vite-plugin-runScripts -D
+npm install vite-plugin-runScripts -D
 ```
 
 ## How to use?
